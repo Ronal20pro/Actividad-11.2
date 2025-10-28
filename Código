@@ -1,1 +1,19 @@
-.
+static void Main(string[] args)
+{
+    string var1 = "";
+    var1 = Console.ReadLine();
+    Console.WriteLine("Agregar longitud: ");
+
+    string[] frutas = new string[5];
+    frutas[0] = "Manzana";
+    frutas[1] = "pera";
+    frutas[2] = "platano";
+    frutas[3] = "naranja";
+    frutas[4] = "uva";
+
+    for (int i = 0; i < frutas.Length; i ++)
+    {
+        Console.WriteLine(frutas[i]);
+    }
+   
+}
